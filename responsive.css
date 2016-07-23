@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    min-width: 375px;
+  }
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .header__title {
+    margin-left: 0;
+    font-size: 1em;
+    vertical-align: bottom; 
+  }
+  .content {
+    border-top: 1px solid #7d97ad;
+    padding-top: 5px;
+  }
+  .hero, .featured__work {
+    min-width: 375px;
+    height: 175px;
+  }
+  .featured__work__minor {
+    height: 175px;
+    width: 100%;
+    display: block;
+  }
+  .featured__work__minor a {
+  display: none;
+  }
+  .featured__work__heading {
+    color: #7d97ad;
+    padding: 3px;
+    padding-top: 6px;
+    font-size: 1.5em;
+  }
+  .article__title {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  main, .header, .content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

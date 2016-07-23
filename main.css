@@ -1,0 +1,150 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  min-height: 56px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+
+.header__inner {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  padding: 15px;
+  height: 90px;
+}
+
+.header__title {
+  font-size: 2em;
+  font-weight: 300;
+  display: inline-block;
+  color: #212121;
+  width: 80%;
+  text-align: right;
+  padding: 15px;
+}
+.header__title h1 {
+  font-weight: 300;
+}
+.header__title h3 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+ *
+ * Content
+ *
+ */
+
+.content {
+    border-top: 3px solid #7d97ad;
+    padding-top: 23px;
+}
+
+/*
+ *
+ * Hero
+ *
+ */
+
+.hero {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  padding: 2.5px;
+}
+
+/*
+ *
+ * Featured Work
+ *
+ */
+
+ .featured__work {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .featured__work__heading {
+  color: #7d97ad;
+  padding: 10px;
+  padding-top: 13px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 2em;
+ }
+.featured__work__minor {
+  width: 33.3%;
+  padding: 5px;
+  overflow: hidden;
+}
+.featured__work__minor img {
+  width: 100%;
+}
+.featured__work__minor a {
+  font-weight: 300;
+  font-size: 1em;
+  width: 100%;
+  color: #2d3c49;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+.article__title {
+  font-weight: 300;
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  width: 100%;
+  font-color: #2d3c49;
+}
